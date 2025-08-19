@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;700&display=swap');
+    </style>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="flex items-center justify-between">
+                <div class="left flex items-center">
+                    <div class="branding"> 
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+                    <div>
+                        <a href="#">About</a>
+                        <a href="#">Skill</a>
+                        <a href="#">Project</a>
+                        <a href="#">Resume</a>
+                        
+                    </div>
+                </div>
+
+                <div class="right">
+                    <button class="btn btn-primary">Contact</button>
+                </div>
+            </nav>
+            <div class="hero flex items-center justify-between">
+                <div class="left flex-1 flex justify-center">
+                    <img src="./harsh.jpg" alt="">
+                </div>
+                <div class="right flex-1">
+                    <h4>Harsh Kumar</h4>
+                    <h1>I am a Software Engineer<span> Student</span></h1>
+                    <p>I’m Harsh Kumar, a passionate and dedicated Software Engineering student with a foundation in programming, data structures, and web development. I’m constantly exploring new opportunities and building real-world projects to enhance my problem-solving skills. With a keen interest in full-stack development.</p>
+                    
+                </div>
+            </div>
+        </div>    
+    </header>
+
+    <section class="about">
+        <div class="container flex items-center">
+            <div class="flex-1">
+                <img class="about-me-img" src="./Harsh1.jpg" alt="">
+            </div>
+
+            <div class="flex-1">
+                <h1>About <span>Me</span></h1>
+                <h3>Hello I'm Harsh Kumar</h3>
+                <p>Freshman Computer Science and Engineering student at Galgotias University, Greater Noida.
+                Passionate about technology with strong programming skills, eager to contribute to real-world
+                projects. Excited to explore opportunities in computer science fields. Completed my 10th and 12th 
+                from Vibgyor public school , UP Board, Chaundali, Raebareli, UP</p>
+                <div class="social">
+                    <a href="#"><img src="./website.jpg" alt=""></a>
+                    <a href="#"><img src="./facebook.jpg" alt=""></a>
+                    <a href="#"><img src="./twitter.png" alt=""></a>
+                    <a href="#"><img src="./pintrest.png" alt=""></a>
+                    <a href="#"><img src="./instagram.jpg" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+   
+
+    <section class="skills-section" aria-labelledby="skills-heading">
+    <header class="skills-header">
+      <h1 id="skills-heading">My Skills</h1>
+      <p class="skills-lead"></p>
+    </header>
+
+    <div class="skills-list">
+      
+      <article class="skill-row java" style="--value: 90">
+        <div class="info">
+          <span class="icon" aria-hidden="true">☕</span>
+          <h3>Java</h3>
+          <span class="tag"></span>
+        </div>
+        <div class="bar"
+             role="progressbar"
+             aria-label="Java skill"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+          <span class="fill" data-pct="90"></span>
+        </div>
+      </article>
+
+      <article class="skill-row python" style="--value: 85">
+        <div class="info">
+          <span class="icon" aria-hidden="true">🐍</span>
+          <h3>Python</h3>
+          <span class="tag"></span>
+        </div>
+        <div class="bar"
+             role="progressbar"
+             aria-label="Python skill"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="85">
+          <span class="fill" data-pct="85"></span>
+        </div>
+      </article>
+
+      <article class="skill-row html" style="--value: 95">
+        <div class="info">
+          <span class="icon" aria-hidden="true">🔧</span>
+          <h3>HTML</h3>
+          <span class="tag"></span>
+        </div>
+        <div class="bar"
+             role="progressbar"
+             aria-label="HTML skill"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="95">
+          <span class="fill" data-pct="95"></span>
+        </div>
+      </article>
+
+      <article class="skill-row css" style="--value: 90">
+        <div class="info">
+          <span class="icon" aria-hidden="true">🎨</span>
+          <h3>CSS</h3>
+          <span class="tag"></span>
+        </div>
+        <div class="bar"
+             role="progressbar"
+             aria-label="CSS skill"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="90">
+          <span class="fill" data-pct="90"></span>
+        </div>
+      </article>
+      <article class="skill-row js" style="--value: 80">
+        <div class="info">
+          <span class="icon" aria-hidden="true">⚡</span>
+          <h3>JavaScript</h3>
+          <span class="tag"></span>
+        </div>
+        <div class="bar"
+             role="progressbar"
+             aria-label="JavaScript skill"
+             aria-valuemin="0" aria-valuemax="100" aria-valuenow="80">
+          <span class="fill" data-pct="80"></span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="projects-section" aria-labelledby="projects-heading">
+    <header class="projects-header">
+      <h1 id="projects-heading">Projects</h1>
+      <p class="lead"></p>
+    </header>
+
+    <div class="projects-grid">
+
+      <article class="project-card" aria-labelledby="proj-hms-title">
+        <div class="project-top">
+          <span class="project-icon" aria-hidden="true">🏥</span>
+          <h2 class="project-title" id="proj-hms-title">Hospital Management System</h2>
+        </div>
+        <p class="project-desc">
+          A modular system to streamline common hospital workflows—patient registration, appointment scheduling,
+          doctor/ward allocation, and basic billing. Focused on clean forms, searchable patient records, and role‑based
+          access (admin, doctor, receptionist) to keep data organized and secure.
+        </p>
+        <ul class="project-tags" aria-label="Technologies used">
+          <li>Java</li><li>MySQL</li><li>HTML/CSS</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Hospital Management System details">View details</a>
+      </article>
+
+      <article class="project-card" aria-labelledby="proj-sg-title">
+        <div class="project-top">
+          <span class="project-icon" aria-hidden="true">🧰</span>
+          <h2 class="project-title" id="proj-sg-title">Screw Gauge</h2>
+        </div>
+        <p class="project-desc">
+          A learning‑oriented mini‑project that simulates screw gauge measurement concepts: least count, zero error,
+          and precise reading capture. Designed to help students understand how micrometer readings are computed and
+          recorded, with error handling and step‑by‑step guidance.
+        </p>
+        <ul class="project-tags" aria-label="Technologies used">
+          <li>HTML/CSS</li><li>JavaScript (logic)</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Screw Gauge project details">View details</a>
+      </article>
+
+      <article class="project-card" aria-labelledby="proj-dn-title">
+        <div class="project-top">
+          <span class="project-icon" aria-hidden="true">🖥️</span>
+          <h2 class="project-title" id="proj-dn-title">Desktop Notifier App</h2>
+        </div>
+        <p class="project-desc">
+          A lightweight desktop utility that delivers timely pop‑up notifications—reminders, to‑dos, and quick alerts.
+          Built for minimal resource usage with configurable intervals and simple message templates to keep you on track
+          without distraction.
+        </p>
+        <ul class="project-tags" aria-label="Technologies used">
+          <li>Python</li><li>Notification APIs</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Desktop Notifier App details">View details</a>
+      </article>
+
+      <article class="project-card" aria-labelledby="proj-mba-title">
+        <div class="project-top">
+          <span class="project-icon" aria-hidden="true">🛒</span>
+          <h2 class="project-title" id="proj-mba-title">Market Basket Analysis (Python)</h2>
+        </div>
+        <p class="project-desc">
+          Data‑driven analysis to discover frequently bought‑together item sets and association rules. Implemented
+          data cleaning, transformation, and the Apriori algorithm to extract support, confidence, and lift—informing
+          store layout, promotions, and cross‑selling strategies.
+        </p>
+        <ul class="project-tags" aria-label="Technologies used">
+          <li>Python</li><li>Pandas</li><li>ML/Apriori</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Market Basket Analysis details">View details</a>
+      </article>
+
+      <article class="project-card" aria-labelledby="proj-ors-title">
+        <div class="project-top">
+          <span class="project-icon" aria-hidden="true">🎟️</span>
+          <h2 class="project-title" id="proj-ors-title">Online Reservation System</h2>
+        </div>
+        <p class="project-desc">
+          A responsive reservation platform featuring user sign‑up/login, search and filter, seat/slot selection,
+          and booking confirmation with a simple receipt view. Designed around clear navigation and form validation
+          to reduce booking errors and improve user experience.
+        </p>
+        <ul class="project-tags" aria-label="Technologies used">
+          <li>HTML/CSS</li><li>Java</li><li>MySQL</li>
+        </ul>
+        <a class="project-link" href="#" aria-label="Online Reservation System details">View details</a>
+      </article>
+
+    </div>
+  </section>
+
+  
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <header class="contact-header">
+        <h1>Contact <span>Me</span></h1>
+      
+      </header>
+
+      <div class="contact-content">
+        <form class="contact-form">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required>
+          </div>
+          <div class="form-group">
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <div class="contact-info">
+          <p><strong>Email:</strong> harsh*****745@gmail.com</p>
+          <p><strong>Phone:</strong> +91 81154*****</p>
+          <p><strong>Location:</strong> Greater Noida, Uttar Pradesh</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
